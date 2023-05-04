@@ -1,0 +1,73 @@
+.bowsp{
+    max-width: 768px !important;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.bo-avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #fff;
+}
+
+.bo-avatar img{
+    max-width: 100% !important;
+}
+.get-points-screen .point-value {
+    display: flex;
+    margin: 0 0 50px 0;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.get-points-screen .point-value span{
+    font-size: 50px;
+    display: block;
+    line-height: 50px;
+    margin: 0 0 0 10px;
+    color: #fbe428;
+    font-weight: bold;
+}
+
+.get-points-screen {
+    color: #fff;
+    background: #102947;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-screen .head-info{
+    background: #afd1db;
+    padding: 10px;
+    text-align: center;
+}
+.profile-screen .info-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-point{
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+.box-point label{
+    font-weight: bold;
+}
+.box-point .current-points-value{
+    color: #fff;
+    background: #03989e;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 10px;
+    border-radius: 50px;
+}
+a.bo-btn {
+    display: block;
+    background: #03989e;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none !important;
+    color: #fff;
+}
